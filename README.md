@@ -1,3 +1,3 @@
 # Bonh_labs
 + 
-+ 2)[Обротка символьных массивов](https://github.com/TheZnat/Bonh_labs/blob/master/labs2.cpp "Push me")
++ 2)[Обротка символьных массивов](https://github.com/TheZnat/Bonh_labs/blob/master/2 "Push me")
