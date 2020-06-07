@@ -7,8 +7,10 @@ void krug ( double x1, double x2, double x3, double S, double R ){
     p = (x1+x2+x3)/2.0;
     S = sqrt(p*(p-x1)*(p-x2)*(p-x3));
     R = (x1*x2*x3)/(4*S);
+    double r = (2*S)/(x1+x2+x3);
     cout<<"Площадь треугольника S = "<<S<<endl;
     cout<<"Радиус описаной окружности R = "<<R<<endl;
+    cout<<"Радиус вписанной окружности r = "<<r<<endl;
 }
 double Fun (double x){
     double Fun;
@@ -22,6 +24,8 @@ int main() {
     cout <<"-----------------------------"<<endl;
     cout << "Значения" << endl;
     cout <<"a = 0.7 e = 0.0001 d = 1.5"<<endl;
+    cout <<"Функция"<<endl;
+    cout <<"Fun = tan(x) - 1.5"<<endl;
     if(Fun(a) * Fun(b) < 0){
         cout<<"Условие сходимости выполнено"<<endl;
         k = 0;
@@ -56,4 +60,3 @@ int main() {
     cout <<"-----------------------------"<<endl;
     return 0;
 }
-
